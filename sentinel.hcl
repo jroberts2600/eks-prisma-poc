@@ -1,4 +1,4 @@
 policy "bridgecrew" {
-  source            = "./eks-prisma-poc/bridgecrew.sentinel"
+  source            = "./bridgecrew.sentinel"
   enforcement_level = "soft-mandatory"
 }
