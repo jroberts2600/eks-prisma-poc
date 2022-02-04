@@ -10,6 +10,7 @@ module "eks" {
     Environment = "training"
     GithubRepo  = "terraform-aws-eks"
     GithubOrg   = "terraform-aws-modules"
+    yor_trace   = "e519fb76-96eb-4099-ba92-a7d4751ecba5"
   }
 
   vpc_id = module.vpc.vpc_id
